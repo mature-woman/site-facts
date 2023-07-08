@@ -1,0 +1,39 @@
+{
+	"name": "mirzaev/site-facts",
+	"description": "Thoughts that will make you think",
+	"readme": "README.md",
+	"keywords": [
+		"site",
+		"facts"
+	],
+	"type": "site",
+	"homepage": "https://git.mirzaev.sexy/mirzaev/site-facts",
+	"license": "WTFPL",
+	"authors": [
+		{
+			"name": "Arsen Mirzaev Tatyano-Muradovich",
+			"email": "arsen@mirzaev.sexy",
+			"homepage": "https://mirzaev.sexy",
+			"role": "Programmer"
+		}
+	],
+	"support": {
+		"email": "arsen@mirzaev.sexy",
+		"wiki": "https://git.mirzaev.sexy/mirzaev/site-facts/wiki",
+		"issues": "https://git.mirzaev.sexy/mirzaev/site-facts/issues"
+	},
+	"funding": [
+		{
+			"type": "funding",
+			"url": "https://fund.mirzaev.sexy"
+		}
+	],
+	"require": {
+		"php": "~8.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"mirzaev\\site\\facts\\": "mirzaev/site/facts/system"
+		}
+	}
+}
